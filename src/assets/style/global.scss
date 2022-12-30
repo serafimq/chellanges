@@ -1,0 +1,68 @@
+@import "./fonts.scss";
+
+:root {
+  --bebasneue: 'Bebasneue', sans-serif;
+  --satoshi: 'Satoshi', sans-serif;
+  --clash: 'Clash Display', sans-serif;
+
+  --light: #fff;
+  --dark: #2A254B;
+  --gray: #726E8D;
+  --light-gray: #F9F9F9;
+}
+
+
+html,
+body,
+.app-element {
+  height: 100%;
+  margin: 0;
+  font-family: var(--satoshi);
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.input-text {
+  height: 56px;
+  padding: 0 32px;
+  font-size: 16px;
+  border: none;
+
+  @media screen and (max-width: 767px) {
+    padding: 0 0px 0 5px;
+    width: 0px;
+  }
+}
