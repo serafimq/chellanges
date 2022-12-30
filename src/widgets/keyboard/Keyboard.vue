@@ -43,24 +43,25 @@ onMounted(() => {
     align-items: center;
     justify-content: center;
     height: 100%;
-  }
-}
-svg {
-  max-width: 90%;
-  margin: 0 auto;
-  path {
-    cursor: pointer;
-  }
-  path.white-keys {
-    fill: #fff;
-    &:hover {
-      fill: #ffd200;
-    }
-  }
-  path.black-keys {
-    fill: #000;
-    &:hover {
-      fill: #f40082;
+
+    svg {
+      max-width: 90%;
+      margin: 0 auto;
+      path {
+        cursor: pointer;
+      }
+      path.white-keys {
+        fill: #fff;
+        &:hover {
+          fill: #ffd200;
+        }
+      }
+      path.black-keys {
+        fill: #000;
+        &:hover {
+          fill: #f40082;
+        }
+      }
     }
   }
 }

@@ -15,7 +15,7 @@ import Sidebar from "@/layouts/components/Sidebar.vue";
 .container {
   &--challenge {
     display: grid;
-    grid-template-columns: minmax(100px, 20%) 1fr;
+    grid-template-columns: minmax(250px, 20%) 1fr;
     height: calc(100% - 132px);
     max-width: 100%;
   }
